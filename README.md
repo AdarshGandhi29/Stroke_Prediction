@@ -18,3 +18,39 @@ The goal of this project is to classify patients based on their likelihood of ha
 
 ## Dataset
 The dataset used in this project is the "Stroke Prediction Dataset" from Kaggle. It includes various features like age, gender, BMI, average glucose level, hypertension, and heart disease history.
+
+## Modeling Approach
+The following classification algorithms were used:
+
+- Logistic Regression (LR)
+- Naive Bayes (NB)
+- K-Nearest Neighbors (KNN)
+- Decision Tree (DT)
+- Random Forest (RF)
+- K-Means Clustering (unsupervised)
+
+These models are applied after preprocessing the data, including:
+
+- Encoding categorical variables
+- Standardizing numerical features
+- Splitting data into training and testing sets
+
+## Evaluation Metrics
+Each model is evaluated using these metrics:
+
+- **Accuracy**: Proportion of correctly predicted instances
+- **Precision**: Ratio of true positives to total predicted positives
+- **Recall**: Ratio of true positives to total actual positives
+- **F1-Score**: Harmonic mean of precision and recall
+
+## Results
+A summary table is generated to compare each model based on the evaluation metrics mentioned above. This helps in identifying the best-performing model for stroke prediction based on the given data.
+
+## Future Improvements
+- Incorporate additional features for better prediction accuracy.
+- Experiment with hyperparameter tuning techniques like GridSearchCV.
+- Use ensemble methods like Gradient Boosting or AdaBoost.
+
+## Contributing
+Contributions are welcome! If you'd like to improve the project, feel free to fork the repository and submit a pull request.
+
