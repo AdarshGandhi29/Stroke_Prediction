@@ -117,25 +117,7 @@ Stroke_Prediction/
 
 ---
 
-## 🤝 Credits
-
-- **Frontend:** Modern UI built with [shadcn/ui](https://ui.shadcn.com/) and [Radix UI](https://www.radix-ui.com/)
-- **Backend:** Powered by [Flask](https://flask.palletsprojects.com/) and [scikit-learn](https://scikit-learn.org/)
-- **Icons:** [Lucide](https://lucide.dev/)
-
----
-
-## 📄 License
-
-This project is for educational and informational purposes only.
-
----
-
 ## 🙏 Acknowledgements
 
 - Inspired by open-source healthcare and ML communities
 - Built for learning, demo, and awareness
-
----
-
-Enjoy using the Stroke Risk Prediction System! 🧠💙 
